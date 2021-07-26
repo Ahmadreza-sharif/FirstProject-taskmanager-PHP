@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Task Manager - HTML | CSS</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Task Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+  <body>
+    <div id="all-tasks">
+      
+      <section class="header">
+          <div class="top">
+        <div class="logo">
+          TaskManager
+        </div>
+        <div class="tasks-total">
+          <div class="task"><span class="number">12</span> Tasks</div> 
+          <br>
+          <div class="task"><span class="number">5</span> Completed</div>
+       </div>
+       <div class="add-circle">
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+    </div>
+      </section>
+
+          </div>
+          
+
+      <section class="content-area">
+          <div class="container">
+            <div class="tasks-container">
+                <div class="task-box">
+                    <div class="title">
+                      <h6 class="fontTitle">
+                        Clean Room
+                        <div class="check-box">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        </div>
+                      </h6>
+                    </div>
+                    <div class="date">
+                      <h6>Created on: September 16, 2017</h6>
+                    </div>
+                    
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                <div class="task-box">
+                    <div class="title">
+                        <h6 class="fontTitle">Clean Room</h6>
+                      </div>
+                      <div class="date">
+                          <h6>Created on: Augest 05, 2017</h6>
+                      </div> 
+                </div>
+
+                
+                
+            </div>
+            
+            
+          </div>
+          
+      </section>
+
+
+      <section class="task-form">
+        <div class="close-btn">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <form>
+            <h3> Add New Task </h3>
+          <div class="form-group">
+              <label for="title">Title:</label>
+              <input type="text" name="title">
+          </div>
+          <div class="form-group">
+              <label for="title">Category:</label>
+              <input type="text" name="category">
+          </div>
+          <div class="form-group">
+              <label for="title">Notes:</label>
+              <textarea name="notes" id="" cols="30" rows="4"></textarea>
+          </div>
+          <div class="form-group">
+              <button type="submit">Add New Task</button>
+          </div>
+        </form>
+      </section>
+
+
+      <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"></script>
+
+      <script>
+        $(document).ready(function(){
+          $('.add-circle').on('click', function(){
+            $('.task-form').addClass('active')
+          })
+          $('.task-form .close-btn').on('click', function(){
+            $('.task-form').removeClass('active')
+          })
+        });
+      </script>
+
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
